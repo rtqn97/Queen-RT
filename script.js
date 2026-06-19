@@ -38,9 +38,9 @@ renderer.setPixelRatio(
 
 const PARTICLE_COUNT = 5000;
 
-const SCATTER_DURATION = 4000;
-const HEART_DURATION = 4000;
-const NAME_DURATION = 4000;
+const SCATTER_DURATION = 6000;
+const HEART_DURATION = 8000;
+const NAME_DURATION = 8000;
 
 let currentState = "scatter";
 
@@ -682,7 +682,7 @@ startBtn.addEventListener(
 
             showMessage();
 
-        },32000);
+        },15000);
 
     }
 );
